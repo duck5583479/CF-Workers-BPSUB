@@ -1,4 +1,4 @@
-const hostname = "snippets.neib.cn";
+const hostname = "kongliu.7calie.ip-ddns.com";
 export default {
     async fetch(request, env, ctx) {
         if (request.headers.get('Upgrade') !== 'websocket') {
